@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Menu from './components/Menu'
 import Content from './components/Content'
-import TabContent from './components/TabContent'
-
+import Footer from './components/Footer'
+import MapContainer from './components/Maps'
 
 class App extends Component {
   render() {
@@ -10,7 +10,7 @@ class App extends Component {
       <div>
         <Menu />
         <Content />
-      
+      	<Footer />
       </div>
     );
   }

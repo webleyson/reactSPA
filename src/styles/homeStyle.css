@@ -6,7 +6,6 @@ body{
 .fullScreenPhoto{
   width: 100%;
   margin:0;
-
   background-color:rgba(0,198,171,0.9);
 }
 
@@ -14,13 +13,12 @@ body{
   width: 100%;
   min-height:300px;
   margin:0;
-  background-color: #fff;
+  background-color: #f5f7fa;
 }
-.fullScreenPhoto3{
+.contactSection{
   width: 100%;
-    margin:0;
-  height:300px;
-  background-color: yellow;
+  margin:0;
+  background-color: #fff;
 }
 
 video {
@@ -36,9 +34,28 @@ video {
     transition: 1s opacity;
 }
 
-
+.fa-center{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
 
 .video-parallax {
     -webkit-transition-position: fixed;
     position: fixed;
+}
+
+
+.orangeBg{
+	background: #F99D19;
+	color: #fff;
+}
+
+.devOpsBg{
+	background: #58E4FA;
+	color: #fff;
+}
+.serverBg{
+	background: #00C6AB;
+	color: #fff;
 }
