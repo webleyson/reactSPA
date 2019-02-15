@@ -1,5 +1,23 @@
 // Override default variables before the import
-$body-bg: #000;
+
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
+
+.btn-primary {
+    color: #fff;
+    background-color: #58E4FA;
+    border-color: #58E4FA;
+}
+
+
+header{
+	color: #fff;
+	padding: 3em;
+	h2{
+		padding: 1em;
+	}
+	button{
+		margin:	3em;
+	}
+}

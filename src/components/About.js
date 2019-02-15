@@ -10,7 +10,7 @@ const About = () => {
       transitionAppearTimeout={500}
       transitionEnter={false}
       transitionLeave={false}>
-      <div className="about">
+      <div className="container row about">
         About
         </div>
     </CSSTransitionGroup>
