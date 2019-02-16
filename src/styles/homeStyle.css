@@ -1,15 +1,16 @@
 body{
   margin: 0;
-  padding:0
+  padding:0;
+  font-family: "museo-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .fullScreenPhoto{
   width: 100%;
   margin:0;
-  background-color:rgba(0,198,171,0.9);
+  background-color:rgba(0,198,171,0.96);
 }
 
-.fullScreenPhoto2{
+.mainFeatures{
   width: 100%;
   min-height:300px;
   margin:0;
@@ -43,6 +44,14 @@ video {
 .video-parallax {
     -webkit-transition-position: fixed;
     position: fixed;
+}
+.card{
+  
+    margin-bottom: 1.875rem;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0 10px 40px 0 rgba(62,57,107,.07), 0 2px 9px 0 rgba(62,57,107,.06);
+    box-shadow: 0 10px 40px 0 rgba(62,57,107,.07), 0 2px 9px 0 rgba(62,57,107,.06);
 }
 
 

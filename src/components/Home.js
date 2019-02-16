@@ -3,7 +3,6 @@ import { CSSTransitionGroup } from 'react-transition-group'
 import '../styles/homeStyle.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import  MapContainer from './Maps'
-
 import bgVideo from '../assets/walking.mp4';
 
 const Home = () => {
@@ -32,7 +31,7 @@ const Home = () => {
   </video>
 </div>
 
-<div className="fullScreenPhoto2">
+<section className="mainFeatures">
   <h3 className="text-center">More about What we do</h3>
     <div className="container">
         
@@ -101,7 +100,7 @@ const Home = () => {
 
     </div>
   </div>  
-</div>
+</section>
 
 
 

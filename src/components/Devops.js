@@ -2,7 +2,7 @@ import React from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import '../styles/aboutStyle.css'
 
-const About = () => {
+const Serverless = () => {
   return (
     <CSSTransitionGroup
       transitionName="aboutTransition"
@@ -11,10 +11,10 @@ const About = () => {
       transitionEnter={false}
       transitionLeave={false}>
       <div className="container row about">
-        About
+        Serverless
         </div>
     </CSSTransitionGroup>
   )
 }
 
-export default About
+export default Serverless

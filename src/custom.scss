@@ -10,6 +10,9 @@
     border-color: #58E4FA;
 }
 
+a.logo{
+	color: #F99D19 !important;
+}
 
 header{
 	color: #fff;
@@ -19,5 +22,11 @@ header{
 	}
 	button{
 		margin:	3em;
+	}
+}
+
+.mainFeatures{
+	h4{
+	font: "museo-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	}
 }
