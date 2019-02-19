@@ -13,7 +13,8 @@ body{
 .mainFeatures{
   width: 100%;
   min-height:300px;
-  margin:0;
+  margin: 0;
+  padding-top: 3em;
   background-color: #f5f7fa;
 }
 .contactSection{
@@ -46,25 +47,31 @@ video {
     position: fixed;
 }
 .card{
-  
+    font-family: "museo-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 200;
+    background-color: transparent;
     margin-bottom: 1.875rem;
     border: none;
     border-radius: 0;
-    -webkit-box-shadow: 0 10px 40px 0 rgba(62,57,107,.07), 0 2px 9px 0 rgba(62,57,107,.06);
-    box-shadow: 0 10px 40px 0 rgba(62,57,107,.07), 0 2px 9px 0 rgba(62,57,107,.06);
+    background: transparent;
+    color: #343a40;
+    border: 0;
 }
 
 
-.orangeBg{
-	background: #F99D19;
-	color: #fff;
+.btn-outline-WSorange{
+  border-color: #F99D19;
+  color: #F99D19;
 }
-
-.devOpsBg{
-	background: #58E4FA;
-	color: #fff;
+.btn-outline-WSorange:hover{
+  background-color : #F99D19;
+  color: #fff;
 }
-.serverBg{
-	background: #00C6AB;
-	color: #fff;
+.serverMag{
+  color: #fc00ff;
+}
+.serverMagBG{
+  color: #fc00ff;
+}.serverMagBorder{
+  color: #fc00ff;
 }

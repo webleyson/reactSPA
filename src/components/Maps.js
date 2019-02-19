@@ -28,6 +28,8 @@ export class MapContainer extends Component {
       });
     }
   };
+
+  
   render() {
     return (
       <Map
@@ -41,7 +43,7 @@ export class MapContainer extends Component {
       >
       <Marker
           onClick={this.onMarkerClick}
-          name={'Without Servers'}
+          name={'Without Servers <br /> Windsor House'}
         />
 
         <InfoWindow

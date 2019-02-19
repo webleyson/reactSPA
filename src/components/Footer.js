@@ -9,27 +9,34 @@ const Footer = () =>{
     <footer>
         <div className="container">
             <div className="row">
-                <div className="col-xs-6">
-                    Contact               
+
+                <div className="col-sm-6">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-facebook fa-stack-1x fa-inverse  text-dark"></i>
+                </span>
+                 <span class="fa-stack fa-2x">
+                  <i class="fas fa-square fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse text-dark"></i>
+                </span>
                 </div>
-                <div className="col-xs-6">
-                    <address>
-                         <h2>Address</h2>
-                        <ul>
-                            <li>Without Servers Limited</li>
-                            <li>1st Floor</li>
-                            <li>Wellington House</li>
-                            <li>Wellington Street</li>
-                            <li>Cardiff</li>
-                            <li>CF11 9BE</li>
-                            <li>
-                                Telephone : +44330 1331225
-                            </li>
-                            <li>
-                                Email : info@withoutservers.com
-                            </li>
-                        </ul>
+                <div className="col-sm-6">
+                    <address class="text-right">
+                       
+                            Without Servers<br />
+                            1st Floor <br />
+                            Wellington House<br />
+                            Wellington Street<br />
+                            Cardiff<br />
+                            CF11 9BE
+                              
+                       
                     </address>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-sm-12 text-center">
+                Without Servers Ltd are registered in England and Wales. No 10981878.
                 </div>
             </div>
         </div>

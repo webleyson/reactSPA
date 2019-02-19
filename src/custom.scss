@@ -4,21 +4,38 @@
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
 
-.btn-primary {
-    color: #fff;
-    background-color: #58E4FA;
-    border-color: #58E4FA;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+
+.WSorange{
+  color: #F99D19;
+}
+.WSorangeBg{
+  background-color : #F99D19;
+}
+.WSorangeBorder{
+  border-color: #F99D19;
 }
 
+p.lead{
+	color: #fff;
+}
 a.logo{
 	color: #F99D19 !important;
 }
 
 header{
 	color: #fff;
-	padding: 3em;
+	padding: 5em;
 	h2{
-		padding: 1em;
+		font-family: 'Lato', sans-serif;
+		margin-bottom: .5em;
+	}
+	h3{
+		margin: 0;
 	}
 	button{
 		margin:	3em;
@@ -27,6 +44,39 @@ header{
 
 .mainFeatures{
 	h4{
-	font: "museo-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-family: 'Lato', sans-serif;
 	}
+}
+
+.heroImage{
+	.heroText{
+		color: #F99D19;
+	}
+}
+
+.card {
+	.card-image{
+		padding: 0;
+		height: 60px;
+	}
+	.card-body{
+	padding-top: 0;
+	height: 130px;
+	}
+	.card-header, .card-footer{
+		margin-bottom: 0 !important;
+    	margin-bottom: 0;
+    	border: none;
+    	background: transparent !important;
+    	background-color: transparent !important;
+    	 font-family: 'Open Sans',serif;
+	}
+}
+
+.contactSection{
+	padding: 1em 0;
+}
+
+footer{
+	padding: 1em 0;
 }

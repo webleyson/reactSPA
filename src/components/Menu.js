@@ -1,32 +1,32 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Form from 'react-bootstrap/Form';
+import FormControl from 'react-bootstrap/FormControl';
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
 
 const Menu = () => {
   return (
-  	<nav className="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-	    <div className="container">
-	      	<a className="navbar-brand logo" href="#">Without <i class="fas fa-server"></i>ervers</a>
-	      	<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-	        	<span className="navbar-toggler-icon"></span>
-	      	</button>
-	      	<div className="collapse navbar-collapse" id="navbarResponsive">
-	        	<ul className="navbar-nav ml-auto">
-			        <li className="nav-item">
-			          	<Link className="nav-link" to="/aws-consultancy">AWS</Link>
-			        </li>
-			        <li className="nav-item">
-			            <Link className="nav-link" to="/serverless">Serverless</Link>
-			        </li>
-			        <li className="nav-item">
-			            <Link className="nav-link" to="/dev-ops-services">Dev Ops</Link>
-			        </li>
-	        	</ul>
-	      	</div>
-	    </div>
-  	</nav>
+  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <Navbar.Brand className="logo" href="/">Without Servers</Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    
+    <Nav  className="ml-auto light" >
+
+      <Link  className="nav-link" to="/aws-consultancy">AWS</Link>
+	    <Link className="nav-link" to="/serverless">Serverless</Link>
+	    <Link className="nav-link" to="/devop-services">Dev Ops</Link>
+    </Nav>
+  </Navbar.Collapse>
+</Navbar>
+
+
   )
 }
 
 export default Menu
-
 
