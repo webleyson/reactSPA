@@ -1,6 +1,7 @@
 import React from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import '../styles/aboutStyle.css'
+import AwsCloud from '../assets/awscloud.png'
 
 const Serverless = () => {
   return (
@@ -13,17 +14,21 @@ const Serverless = () => {
        <section className="heroImage bg-dark">
         <header>
           <div className="col-sm-12  text-center">
-            <h2 class="heroText WSorange">Serverless</h2>
+            <h2 class="heroText WSorange">Cloud Application Development</h2>
             <h3 class="lead">Less management, instant scalability and low hosting costs.</h3>
           </div>
         </header>
       </section>
 
-      <section className="mainFeatures">
+      <section className="pageFeatures">
       <div className="container">        
         <div className="row">
+         <div className="col-sm-12">
+        <h3 class="contentHeader WSorange">Let us guide you</h3>
+        </div>
+          <div className=" col-md-6 col-sm-12">
+          
 
-          <div className="col-xl-4 col-md-6 col-sm-12">
               <p>
                     Migrating to AWS is easy, taking advantage of the AWS platform is difficult. We
                     have
@@ -59,22 +64,26 @@ const Serverless = () => {
                     <li>AWS advice and technical support.
                     </li>
                 </ul>
+
+                <ul>
+                  <li>Web Application Development:</li>
+                 <li>Bespoke software development services designed for the cloud.</li>
+                 <li>Software-as-a-service products.</li>
+                 <li>Business Applications</li>
+                 <li>Serverless-First approach. </li>
+                 <li>2 years free monitoring, alerting and support</li>
+                </ul>
+
+
           </div>
-          <div className="col-xl-4 col-md-6 col-sm-12">
-                <p>
-                    Let us help your team take advantage of the vast library of AWS tools. Utilise
-                    S3's
-                    resilience, Cloudfront's performance, EC2's load balancing and RDS' redundancy
-                    and
-                    Batch processing to give you the power of using servers without all the hassle
-                    that
-                    comes with.
-                </p>
-                <p>
-                    Bringing in one of our engineers to your software projects lets you take
-                    advantage
-                    of all the benefits of running your software in the cloud.
-                </p>
+          <div className="col-md-6 col-sm-12">
+           <figure>
+          <img className="img-responsive img-thumbnail" src={AwsCloud}/>
+          <figcaption>
+         
+          </figcaption>
+          </figure>
+               
             </div>
           </div>
         </div>

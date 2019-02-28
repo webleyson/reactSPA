@@ -1,6 +1,8 @@
 import React from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import '../styles/awsStyle.css'
+import helpingHand from '../assets/helpingHand.gif'
+import diagram from '../assets/serverlessdiagram.png'
 
 const Aws = () => {
   return (
@@ -19,10 +21,14 @@ const Aws = () => {
         </header>
       </section>
 
-      <section className="mainFeatures">
+      <section className="pageFeatures">
       <div className="container">        
         <div className="row">
-          <div className="col-xl-4 col-md-6 col-sm-12">
+          <div className="col-sm-12">
+           <h3 class="contentHeader WSorange">A helping hand</h3>
+           </div>
+           <div className="col-md-6 col-sm-12">
+           
               <p>
                       Migrating to AWS is easy, taking advantage of the AWS platform is difficult. We
                       have
@@ -37,30 +43,21 @@ const Aws = () => {
                       for
                       you to use AWS migration and management tasks such as:
                   </p>
-                  <ul>
-                      <li>Architecture design and alterations.
-                      </li>
-                      <li>Set up new systems and AWS services.
-                      </li>
-                      <li>DevOps software release management.
-                      </li>
-                      <li>Creation of Cloudformation scripts for any new software systems.
-                      </li>
-                      <li>Implementation of highly-resilient and scalable systems for your new
-                          application.
-                      </li>
-                      <li>Implementation of performance and uptime monitoring for any new software
-                          systems.
-                      </li>
-                      <li>
-                          Security advice and review.
-                      </li>
-                      <li>AWS advice and technical support.
-                      </li>
-                  </ul>
+          
                 </div>
-                <div className="col-xl-4 col-md-6 col-sm-12">
-                  <p>
+                <div className="col-md-6 col-sm-12">
+                <img className="img-responsive img-thumbnail" src={helpingHand}/>
+            </div>
+          </div>
+
+          <div className="row mt-5">
+            <div className="col-md-6 col-sm-12">
+                 <img className="img-responsive img-thumbnail" src={diagram}/>
+            </div>
+            
+            <div className="col-md-6 col-sm-12">
+            <h3 class="contentHeader WSorange">A heading</h3>
+             <p>
                       Let us help your team take advantage of the vast library of AWS tools. Utilise
                       S3's
                       resilience, Cloudfront's performance, EC2's load balancing and RDS' redundancy

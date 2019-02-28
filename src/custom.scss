@@ -20,37 +20,91 @@
   border-color: #F99D19;
 }
 
+.btn-orange{
+	background-color: #F99D19;
+	border-color: #F99D19;
+	color: #fff;
+}
+
+
+
+
 p.lead{
 	color: #fff;
 }
 a.logo{
 	color: #F99D19 !important;
+	.logoImage{
+		background-color: #F99D19 !important;
+	    width: 10em;
+	    padding: .3em;
+	    position: fixed;
+	    top: 0;
+	    border-bottom-left-radius: 10px;
+    	border-bottom-right-radius: 10px;
+    	z-index: 9999;
+	}
+}
+
+.modal-content{
+	background-color: #f5f7fa;
 }
 
 header{
 	color: #fff;
-	padding: 5em;
+	padding: 5em 0;
 	h2{
 		font-family: 'Lato', sans-serif;
 		margin-bottom: .5em;
 	}
 	h3{
 		margin: 0;
+		padding: 0 1em;
 	}
 	button{
-		margin:	3em;
+		margin:	0em;
 	}
+
+	
 }
 
 .mainFeatures{
+
 	h4{
 	font-family: 'Lato', sans-serif;
+	}
+}
+
+.pageFeatures{
+	margin: 2em 0;
+	h3.contentHeader{
+		font-family: 'Lato', sans-serif;
+		font-size: 4em;
+		margin-bottom: .5em;
+	}
+	p{
+		font-family: "museo-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    	font-weight: 200;
+    	font-size: 1.2em;
+	}
+
+	ul {
+	font-family: "museo-sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 200;
+
+	}
+	img{
+		padding: 1em;
+	}
+	.img-thumbnail{
+		background-color: #3b4249;
 	}
 }
 
 .heroImage{
 	.heroText{
 		color: #F99D19;
+		font-size: 5rem;
 	}
 }
 
@@ -61,7 +115,6 @@ header{
 	}
 	.card-body{
 	padding-top: 0;
-	height: 130px;
 	}
 	.card-header, .card-footer{
 		margin-bottom: 0 !important;
@@ -79,4 +132,48 @@ header{
 
 footer{
 	padding: 1em 0;
+	a{
+		color: #fff;
+		text-decoration: underline;
+		&:hover{
+		color: #F99D19;
+		}
+	}
+	.footerAWSImg{
+		width: 10em;
+		height: auto;
+	}
+
+	.footerHalf{
+		width: 49%;
+		a{
+			text-decoration: none;
+		}
+	}
+	.pull-right{
+		float: right;
+	}
+	.pull-left{
+		float: left;
+	}
+
+}
+
+@media (max-width: 575px) {
+  footer{
+    position: fixed;
+    right: 0;
+    left: 0;   
+    border-radius: 0;
+    bottom: 0;
+  }
+  .contactSection, .pageSection{
+  	padding-bottom: 13em !important;
+  }
+}
+
+@media(max-width: 991px){
+	#responsive-navbar-nav{
+		margin-top: 1em;
+	}
 }

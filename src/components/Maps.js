@@ -43,7 +43,8 @@ export class MapContainer extends Component {
       >
       <Marker
           onClick={this.onMarkerClick}
-          name={'Without Servers <br /> Windsor House'}
+          title={'Without Servers Cardiff'}
+          name={"Without Servers, , Wellington House, Wellington Street, Cardiff CF11 9BE  "}
         />
 
         <InfoWindow
@@ -51,8 +52,9 @@ export class MapContainer extends Component {
           visible={this.state.showingInfoWindow}
           onClose={this.onClose}
         >
-          <div>
-            <p>{this.state.selectedPlace.name}</p>
+             <div style={{maxWidth:'40vw'}}>
+            <h4>Without Servers</h4>
+            <p>1st Floor,<br />Wellington House,<br /> Wellington Street,<br /> Cardiff <br />CF11 9BE <br />Email: info@withoutservers.com  <br />Telephone : +44330 1331225</p>
           </div>
         </InfoWindow>
        </Map>

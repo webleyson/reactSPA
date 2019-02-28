@@ -26,7 +26,7 @@ export class Example extends React.Component {
     return (
       <>
       
-           <button type="button" className="btn btn-primary btn-lg" onClick={this.handleShow}>Book a call</button>
+           <button type="button" className="btn btn-orange btn-lg mt-3" onClick={this.handleShow}>Book a call</button>
       
 
         <Modal show={this.state.show} onHide={this.handleClose}>
